@@ -29,6 +29,7 @@ what it finds. The report covers:
     ├── tech-stack.md                 # Approved stack, allowed extras, disallowed alternatives
     ├── architecture.md               # Architecture guidelines
     └── checklists/                   # What to look for: React+TS, MUI, Context+Router, Recharts, quality
+reviews/                              # Where review reports are saved (empty until the first review)
 sample-app/                           # Small React app with deliberate issues, for testing the agent
 ```
 

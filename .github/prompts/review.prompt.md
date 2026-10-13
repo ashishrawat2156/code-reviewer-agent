@@ -8,6 +8,7 @@ Review ${input:scope:src} following the code-reviewer agent instructions.
 Requirements / user story to check against (optional): ${input:requirements:none}
 
 - Read `.github/review/tech-stack.md`, `.github/review/architecture.md` and the checklists first.
+- If a previous report for this project exists in `reviews/`, treat this as a re-review: keep IDs and add the "Changes Since Last Review" section.
 - Write the full review report to `reviews/<project-name>-review.md` using the agent's report structure:
   Executive Summary, Technology Stack Adherence, Architecture Adherence, Identified Issues,
   Best Practice Violations, Recommendations, Requirements Coverage, What Was Done Well.
